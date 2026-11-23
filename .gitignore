@@ -1,0 +1,67 @@
+# =============================================
+# Unity .gitignore — PixelArtGame
+# =============================================
+
+# --- Carpetas generadas (NO subir) ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# --- Ajustes locales de usuario (NO subir) ---
+[Uu]ser[Ss]ettings/
+
+# --- IDEs y editores ---
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- Archivos de solución de Visual Studio generados por Unity ---
+*.sln
+*.slnx
+*.csproj
+
+# --- Archivos de Unity autogenerados en raíz ---
+*.unitypackage.meta
+
+# --- Assets de Rider/VSCode ---
+.rider/
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Compilaciones de Burst / IL2CPP ---
+/[Bb]uild/
+/[Bb]uilds/
+
+# --- Cache de shaders ---
+ShaderCache/
+
+# --- Asset Store ---
+/[Aa]sset[Ss]tore/
+
+# --- Profiling ---
+/[Pp]rofile[Rr]eports/
+
+# --- Git LFS tracking (descomenta si usas archivos binarios grandes) ---
+# *.psd
+# *.ase
+# *.aseprite
+# *.png filter=lfs diff=lfs merge=lfs -text
+# *.jpg filter=lfs diff=lfs merge=lfs -text
+
+# =============================================
+# QUÉ SÍ SE SUBE (referencia):
+#   Assets/          → escenas, scripts, sprites, prefabs, tilemaps
+#   Packages/        → manifest.json + packages-lock.json
+#   ProjectSettings/ → capas, Physics 2D, calidad, cámara...
+#   README.md
+# =============================================
